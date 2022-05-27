@@ -1,5 +1,5 @@
 .dashBoardCard-container {
-    width: 250px;
+    width: 280px;
 }
 
 .dashBoardCard-top {
@@ -53,4 +53,17 @@
     margin: 10px 0px;
     color: var(--PaleBlue);
     font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card-bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dashBoardCard-hours {
+        font-size: 2rem;
+    }
 }

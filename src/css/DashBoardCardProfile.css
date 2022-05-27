@@ -1,5 +1,5 @@
 .dashboardcardprofile-container {
-    width: 250px;
+    width: 280px;
 }
 
 .Profile-Card-top {
@@ -48,3 +48,13 @@
    cursor: pointer;
    color: #FFF;
 }
+
+@media only screen and (max-width: 1200px) {
+    .Profile-Card-bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
