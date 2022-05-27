@@ -1,0 +1,50 @@
+.dashboardcardprofile-container {
+    width: 250px;
+}
+
+.Profile-Card-top {
+    background-color: var(--Blue);
+    padding: 20px;
+    border-radius: 10px;
+    height: 275px;
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+.info {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.report {
+    color: var(--PaleBlue);
+}
+
+.report-name {
+    color: #FFF;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.Profile-Card-bottom {
+    background-color: var(--Darkblue);
+    padding: 20px;
+    border-radius: 10px;
+    margin: -15px 0px;
+}
+
+.Profile-Card-bottom p {
+    width: fit-content;
+    margin: 15px 0px;
+    color: var(--Desaturatedblue);
+}
+
+.Profile-Card-bottom p:hover {
+   cursor: pointer;
+   color: #FFF;
+}
