@@ -9,9 +9,6 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [Links](#links)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -26,7 +23,11 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
+<<<<<<< HEAD
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+=======
+- Live Site URL: [https://incomparable-faun-894239.netlify.app/]
+>>>>>>> 544dbf26ca30e20add6d9de204201fbb34f5665c
 
 ### Built with
 
@@ -38,7 +39,12 @@ Users should be able to:
 
 ## Author
 
+<<<<<<< HEAD
 - Frontend Mentor - [@marcoberdiano](https://www.frontendmentor.io/profile/marcoberdiano)
 - Twitter - [@Maraujopaulo](https://twitter.com/Maraujopaulo)
 
 
+=======
+- Frontend Mentor - [@marcoberdiano] (https://www.frontendmentor.io/profile/marcoberdiano)
+- Twitter - [@Maraujopaulo](https://twitter.com/Maraujopaulo))
+>>>>>>> 544dbf26ca30e20add6d9de204201fbb34f5665c
