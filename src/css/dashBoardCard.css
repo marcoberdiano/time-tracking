@@ -36,8 +36,8 @@
 
 .dashBoardCard-title {
     display: grid;
-    justify-content: space-between;
     grid-template-columns: auto auto;
+    justify-content: space-between;
     margin: 15px 0px;
     color: #FFF;
 }
@@ -55,10 +55,14 @@
     font-size: 0.8rem;
 }
 
+.card-bottom{
+    width: 100%;
+}
+
 @media only screen and (max-width: 1200px) {
     .card-bottom {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto;
         justify-content: space-between;
         align-items: center;
     }

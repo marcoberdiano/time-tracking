@@ -13,14 +13,17 @@ const DashBoardCardBottom = ({time, current, previous}) => {
         default:
             break
     }
-    return ( <div className="card-bottom">
-    <div className='dashBoardCard-hours'>
-        {current}hrs
-    </div>
+    return ( 
+            <div className="card-bottom">
+                <div className='dashBoardCard-hours'>
+                    {current}hrs
+                </div>
 
-    <div className='dashBoardCard-last-time'>
-        Last {timePreviuos} - {previous}hrs
-    </div> </div>);
+                <div className='dashBoardCard-last-time'>
+                    Last {timePreviuos} - {previous}hrs
+                </div> 
+            </div>
+    );
 }
  
 export default DashBoardCardBottom;
